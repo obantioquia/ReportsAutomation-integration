@@ -39,7 +39,7 @@ fi
 
 
 # Ejecución del script que procesa los datos IDEAM
-/usr/local/bin/Rscript Scripts/IDEAM_data_processing.R
+# /usr/local/bin/Rscript Scripts/IDEAM_data_processing.R
 
 # Ejecución del script que consulta y procesa los datos de GFW, últimas dos
 # semanas (GFW_data.R), y de las últimas dos semanas del IDEAM (GFW_data_matchIDEAM.R).
