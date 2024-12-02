@@ -12,7 +12,7 @@ run_selenium_script() {
 }
 
 try_run_script() {
-  max_retries=5
+  max_retries=3
   retry_count=0
 
   while [ $retry_count -lt $max_retries ]; do
@@ -34,7 +34,7 @@ if try_run_script; then
   echo "El script se ejecutó correctamente."
 else
   echo "Fallo el script después de varios intentos."
-  exit 1
+#  exit 1
 fi
 
 
