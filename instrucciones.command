@@ -58,6 +58,9 @@ cd /Users/investigadora/Desktop/OBA_REPORTES_GFW/Dashboard-webpage
 # Publicación del dashboard-webpage en quarto
 echo -e "\n" | /Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto publish quarto-pub
 
+# Publicación del dashboard-webpage en netlify
+echo -e "\n" | /Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto publish netlify
+
 # Agregar cambios al repositorio remoto de Dashboard-webpage con git
 git add .
 git commit -m "Actualización datos reporte back"
