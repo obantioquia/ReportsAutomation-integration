@@ -4,6 +4,8 @@ echo "Inicio de ejecución de instrucciones"
 # Navegación al repositorio DeforestationData-back
 cd /Users/investigadora/Desktop/OBA_REPORTES_GFW/DeforestationData-back
 
+git pull origin main
+
 # El siguiente ciclo evalua si la ejecución del script R que descarga la información
 # del IDEAM se realiza sin problemas. No sale de ese programa hasta que todo
 # se haga con éxito. 
@@ -54,6 +56,8 @@ fi
 
 # Navegación al repositorio Dashboard-webpage 
 cd /Users/investigadora/Desktop/OBA_REPORTES_GFW/Dashboard-webpage
+
+git pull origin main
 
 # Publicación del dashboard-webpage en quarto
 echo -e "\n" | /Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto publish quarto-pub
